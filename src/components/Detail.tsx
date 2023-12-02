@@ -1,6 +1,7 @@
 import { ThemeProvider } from '@mui/material/styles';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
 import theme from '../styles/index';
 import CssBaseline from '@mui/material/CssBaseline';
 import Typography from '@mui/material/Typography';
@@ -54,6 +55,7 @@ export default function Detail() {
           <Typography variant="h6" align="center" color="text.secondary" paragraph>
             本場インドの雰囲気をあなたの街にお届けします。
           </Typography>
+          <Button variant="contained">応援する</Button>
         </Container>
       </main>
     </ThemeProvider>
