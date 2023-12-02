@@ -7,8 +7,8 @@ import './App.css'
 function App() {
   return (
     <BrowserRouter>
-      <Route exact path="/" component={Menu} />
-      <Route exact path="/detail" component={Detail} />
+      <Route exact path="/dream-tryout/" component={Menu} />
+      <Route exact path="/dream-tryout/detail" component={Detail} />
       <Footer />
     </BrowserRouter>
   )
