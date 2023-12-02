@@ -1,63 +1,33 @@
 const cardContent = [
   {
     "id": 1,
-    "title": "プロジェクト1",
-    "description": "プロジェクト1の説明",
+    "title": "インドの家庭料理カフェ",
+    "description": "インドの家庭料理を提供するカフェを提供したい",
+    "image":"https://thumb.photo-ac.com/aa/aa391ca8658931fc554d4f8e6c2afd46_t.jpeg"
   },
   {
     "id": 2,
-    "title": "プロジェクト2",
-    "description": "プロジェクト2の説明",
+    "title": "みんなの街の本屋さん",
+    "description": "地元の人達が読みたい本を集めた本屋さんを作りたい",
+    "image":"https://media.timeout.com/images/105785138/image.jpg"
   },
   {
     "id": 3,
-    "title": "プロジェクト3",
-    "description": "プロジェクト3の説明",
+    "title": "古民家サウナ",
+    "description": "古民家を改装してサウナを作りたい",
+    "image":"https://img.sauna-ikitai.com/sauna/60076_20230428_135738_sFz3OhkKvk_large.jpg"
   },
   {
     "id": 4,
-    "title": "プロジェクト4",
-    "description": "プロジェクト4の説明",
+    "title": "カスタム自転車屋",
+    "description": "オーダーメイドの自転車を作れるお店を用意したい",
+    "image":"https://www.joetsu.ne.jp/wordpress/wp-content/uploads/2022/09/0c86dcc515e61c53915c43e77427803c.jpg"
   },
   {
     "id": 5,
-    "title": "プロジェクト5",
-    "description": "プロジェクト5の説明",
-  },
-  {
-    "id": 6,
-    "title": "プロジェクト6",
-    "description": "プロジェクト6の説明",
-  },
-  {
-    "id": 7,
-    "title": "プロジェクト7",
-    "description": "プロジェクト7の説明",
-  },
-  {
-    "id": 8,
-    "title": "プロジェクト8",
-    "description": "プロジェクト8の説明",
-  },
-  {
-    "id": 9,
-    "title": "プロジェクト9",
-    "description": "プロジェクト9の説明",
-  },
-  {
-    "id": 10,
-    "title": "プロジェクト10",
-    "description": "プロジェクト10の説明",
-  },
-  {
-    "id": 11,
-    "title": "プロジェクト11",
-    "description": "プロジェクト11の説明",
-  },
-  {
-    "id": 12,
-    "title": "プロジェクト12",
-    "description": "プロジェクト12の説明",
+    "title": "コアワーキングスペース",
+    "description": "近所の人たちが気軽に使える作業スペースを作りたい",
+    "image":"https://images.servcorp.jp/blog/wp-content/uploads/2023/03/MicrosoftTeams-image.jpg"
   }
 ]
 

@@ -49,7 +49,7 @@ export default function Menu() {
               Dream Tryout 
             </Typography>
             <Typography variant="h5" align="center" color="text.secondary" paragraph>
-              社員の夢を社内副業で叶える
+              社員の夢を社内副業で試してみませんか？
             </Typography>
             <Stack
               sx={{ pt: 4 }}
@@ -57,8 +57,7 @@ export default function Menu() {
               spacing={2}
               justifyContent="center"
             >
-              <Button variant="contained">Main call to action</Button>
-              <Button variant="outlined">Secondary action</Button>
+              <Button variant="contained">お問い合わせ</Button>
             </Stack>
           </Container>
         </Box>
@@ -76,7 +75,7 @@ export default function Menu() {
                       // 16:9
                       pt: '56.25%',
                     }}
-                    image="https://source.unsplash.com/random?wallpapers"
+                    image={card.image}
                   />
                   <CardContent sx={{ flexGrow: 1 }}>
                     <Typography gutterBottom variant="h5" component="h2">
