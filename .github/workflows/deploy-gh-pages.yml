@@ -36,6 +36,8 @@ jobs:
         run: npm ci && npm run build
         env:
           PUBLIC_URL: /Example_App
+      - name: Crete .nojekyll file
+        run: touch ./dist/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
