@@ -14,7 +14,7 @@ export default function Footer() {
         color="text.secondary"
         component="p"
       >
-        Get dream yourself!
+        Powered by Gohtum 
       </Typography>
       <Copyright />
     </Box>
