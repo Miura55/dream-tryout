@@ -6,9 +6,9 @@ import './App.css'
 
 function App() {
   return (
-    <BrowserRouter>
-      <Route exact path="/dream-tryout/" component={Menu} />
-      <Route exact path="/dream-tryout/detail" component={Detail} />
+    <BrowserRouter basename='https://miura55.github.io/dream-tryout/'>
+      <Route exact path="/" component={Menu} />
+      <Route exact path="/detail" component={Detail} />
       <Footer />
     </BrowserRouter>
   )
