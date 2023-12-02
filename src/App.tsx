@@ -5,10 +5,11 @@ import Detail from './components/Detail'
 import './App.css'
 
 function App() {
+  console.log(import.meta.env.BASE_URL)
   return (
-    <BrowserRouter basename='https://miura55.github.io/dream-tryout/'>
-      <Route exact path="/" component={Menu} />
-      <Route exact path="/detail" component={Detail} />
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
+      <Route exact path="/dream-tryout/" component={Menu} />
+      <Route exact path="/dream-tryout/detail" component={Detail} />
       <Footer />
     </BrowserRouter>
   )
