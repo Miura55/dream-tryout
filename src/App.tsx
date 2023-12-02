@@ -6,7 +6,7 @@ import './App.css'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Route exact path="/" component={Menu} />
       <Route exact path="/detail" component={Detail} />
       <Footer />
